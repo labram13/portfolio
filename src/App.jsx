@@ -3,12 +3,29 @@ import { useState } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div> 
-      test
-    </div>
+    <>
+    {/* nav bar */}
+      <nav>
+      
+      </nav>
+
+    {/* header */}
+      <header>
+
+      </header>
+
+    {/* main content */}
+      <main>
+
+      </main>
+
+    {/* footer */}
+      <footer>
+        
+      </footer>
+    </>
   )
 }
 
