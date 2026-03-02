@@ -8,7 +8,9 @@ function App() {
     <>
     {/* nav bar */}
       <nav>
-      
+        <p>
+          test
+        </p>
       </nav>
 
     {/* header */}
