@@ -1,17 +1,17 @@
 @import url('./assets/fonts/css/satoshi.css');
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: Satoshi-Regular;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -32,16 +32,15 @@ p {
 }
 
 .container {
-  min-height: 100vh;
+  min-height: 100dvh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
-  margin: 1rem;
-
+  padding: 1rem;
 }
 
-ul {
+
+nav ul {
   display: flex;
-  flex-direction: row;
   list-style: none;
   justify-content: space-between;
   align-items: center;
@@ -88,6 +87,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  overflow: hidden;
 }
 
 h2 {
@@ -100,5 +100,50 @@ h2 {
   font-size: 1rem;
 }
 
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(250, 202, 255);
+  margin-top: 150px
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  background: rgb(60, 1, 60);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%)
+  }
+}
 
 
+
+/* .tech-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.skill-description {
+  font-family: Satoshi-Medium;
+  font-size: 1rem;
+} */

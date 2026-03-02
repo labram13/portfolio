@@ -2,6 +2,7 @@ import { useState } from 'react'
 import {NavBar} from './components/NavBar'
 import {Header} from './components/Header'
 import { AboutMe } from './components/AboutMe'
+import SkillsCarousel from './components/Skills'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     {/* main content */}
       <main>
         <AboutMe />
-        <AboutMe />
+        <SkillsCarousel />
       </main>
 
     {/* footer */}
