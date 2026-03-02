@@ -1,6 +1,7 @@
 @import url('./assets/fonts/css/satoshi.css');
 
 :root {
+  font-family: Satoshi-Regular;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +19,6 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 #root {
@@ -30,3 +30,75 @@ p {
   font-family: Satoshi-Regular;
   font-size: 1.5rem;
 }
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  margin: 1rem;
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+}
+
+.profile-img {
+  height: 185px;
+  width: 185px;
+}
+
+header {
+  margin: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+  font-family: Satoshi-Variable;
+  font-size: 2.44rem;
+  font-weight: 900;
+  letter-spacing: -1px;
+  line-height: 1em; 
+
+}
+
+.sub-heading {
+  font-family: Satoshi-regular;
+  font-size: 0.8rem;
+  color: #555555;
+  opacity: 67%;
+}
+
+.accent {
+  color: #FF634A;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h2 {
+  font-family: Satoshi-Bold;
+  font-size: 1.95rem;
+}
+
+.description {
+  font-family: Satoshi-Regular;
+  font-size: 1rem;
+}
+
+
+
