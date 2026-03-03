@@ -36,6 +36,7 @@ p {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   padding: 1rem;
+  gap: 4rem;
 }
 
 
@@ -57,7 +58,7 @@ nav ul {
 }
 
 header {
-  margin: 4rem 0rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -86,45 +87,48 @@ h1 {
 main {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 4rem;
   overflow: hidden;
 }
 
 h2 {
   font-family: Satoshi-Bold;
   font-size: 1.95rem;
+  
 }
 
 .description {
   font-family: Satoshi-Regular;
   font-size: 1rem;
+  margin-top: 1.5rem;
 }
 
 .carousel-container {
   width: 100%;
   overflow: hidden;
-  background-color: rgb(250, 202, 255);
-  margin-top: 150px
+  margin-top: 1.5rem;
 }
 
 .card {
   flex: 0 0 auto;
-  width: 100px;
-  height: 100px;
-  background: rgb(60, 1, 60);
+  flex-direction: column;
+  width: 8rem;
+  height: 8rem;
+  background: #FFFCF8;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-weight: bold;
   border-radius: 20px;
-  margin: 0 10px;
+  padding: 2rem;
+
 }
 
 .carousel-track {
   display: flex;
   width: max-content;
-  animation: scroll 10s linear infinite;
+  animation: scroll 15s linear infinite;
+  gap: 1rem;
+  padding-right: 1rem;
 }
 
 @keyframes scroll {
@@ -138,12 +142,12 @@ h2 {
 
 
 
-/* .tech-logo {
-  height: 50px;
-  width: 50px;
+.tech-logo {
+  height: 60px;
+  width: 60px;
 }
 
 .skill-description {
   font-family: Satoshi-Medium;
-  font-size: 1rem;
-} */
+  font-size: 1.25rem;
+}
