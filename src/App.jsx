@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="container">
     {/* nav bar */}
-      <nav>
        <NavBar />
-      </nav>
 
     {/* header */}
       <Header />

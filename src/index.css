@@ -23,7 +23,8 @@ body {
 
 #root {
   flex-grow: 1;
-  background-color: #FAF0E6;
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 44%, rgba(250, 240, 230, 1) 77%);
 }
 
 p {
@@ -39,17 +40,53 @@ p {
   gap: 4rem;
 }
 
-
-nav ul {
+/* nav css */
+nav {
   display: flex;
-  list-style: none;
   justify-content: space-between;
   align-items: center;
 }
 
+
 .hamburger {
   width: 50px;
   height: 50px;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 99, 74, 0.09);
+  position: fixed;
+  top:60px;
+  /* left: 0; */
+  height: 50%;
+  width: 90%;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.nav-links-container a {
+  margin: 0.5rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* .close {
+} */
+
+.close {
+  padding-bottom: 10px;
+}
+
+input {
+  display:none;
 }
 
 .profile-img {
