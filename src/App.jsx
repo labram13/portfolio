@@ -3,6 +3,7 @@ import {NavBar} from './components/NavBar'
 import {Header} from './components/Header'
 import { AboutMe } from './components/AboutMe'
 import SkillsCarousel from './components/Skills'
+import ProjectSection from './components/Projects'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <main>
         <AboutMe />
         <SkillsCarousel />
+        <ProjectSection />
       </main>
 
     {/* footer */}
