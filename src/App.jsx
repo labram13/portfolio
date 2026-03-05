@@ -8,7 +8,7 @@ import SkillsCarousel from './components/Skills'
 function App() {
 
   return (
-    <div className="container">
+    <div id="home" className="container">
     {/* nav bar */}
        <NavBar />
 
