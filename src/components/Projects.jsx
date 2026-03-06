@@ -6,7 +6,7 @@ import CodeSVG from '../assets/images/code.svg?react'
 function ProjectSection() {
 
     return (
-        <section id="section">
+        <section id="projects">
             <h2>projects</h2>
             <ProjectCard />
         </section>

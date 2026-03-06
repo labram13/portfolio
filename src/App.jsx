@@ -4,6 +4,8 @@ import {Header} from './components/Header'
 import { AboutMe } from './components/AboutMe'
 import SkillsCarousel from './components/Skills'
 import ProjectSection from './components/Projects'
+import { Education } from './components/Education'
+import CopyrightSVG from './assets/images/copyright.svg?react'
 
 
 function App() {
@@ -21,11 +23,13 @@ function App() {
         <AboutMe />
         <SkillsCarousel />
         <ProjectSection />
+        <Education />
       </main>
 
     {/* footer */}
       <footer>
-        test
+        <CopyrightSVG />
+        <p>Copyright 2026 by Michaelangelo Labrador</p>
       </footer>
     </div>
   )

@@ -37,9 +37,13 @@ p {
 .container {
   min-height: 100dvh;
   display: grid;
-  grid-template-rows: auto auto 1fr auto;
+  grid-template-rows: auto 1fr auto;
   padding: 1rem;
   gap: 4rem;
+}
+
+section {
+  scroll-margin-top: 100px;
 }
 
 
@@ -129,7 +133,7 @@ nav {
 }
 
 .nav-links-container.open {
-  height: 7em; 
+  height: 15em; 
   opacity: 1;
   transition: height 0.3s ease, opacity 0.5s ease;
 
@@ -180,8 +184,8 @@ h1 {
 }
 
 .sub-heading {
+  margin-top: 1rem;
   font-family: Satoshi-regular;
-  font-size: 0.8rem;
   color: #555555;
   /* opacity: 67%; */
 }
@@ -270,6 +274,8 @@ h2 {
   background: #FFFCF8;
   padding: 1.5rem;
   gap: 2rem;
+  /* border: 1px solid black; */
+  border-radius: 20px;
 }
 
 .project-links {
@@ -281,7 +287,7 @@ h2 {
 }
 
 
-.project-title {
+h3 {
   font-family: Satoshi-Medium;
   font-size: 1.56rem;
 
@@ -297,7 +303,7 @@ h2 {
 
 .project-tech-stack p {
   display: flex;
-  font-family: Satoshi-Light;
+  font-family: Satoshi-Regular;
   font-size: 0.8rem;
   border: solid 1px #FF634A;
   border-radius: 20px;
@@ -331,3 +337,81 @@ h2 {
   border: solid 1px #FF634A;
   color: #FF634A;
 }
+
+/* education css */
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  border-left: .15rem solid black;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+
+}
+
+.time::before {
+  position: absolute;
+  content: "";
+  width: .5rem;
+  height: .5rem;
+  background-color: #FF634A;
+  border-radius: 50%;
+  top: 20px;
+  left: -21px;  
+}
+
+.time {
+  padding: 1rem 1rem;
+  position: relative;
+  /* border: black solid 2px; */
+  /* border-top-left-radius: 15px; */
+  border-radius: 0 30px 30px 30px;
+  background: #FFFCF8;
+
+}
+
+h4 {
+  font-family: Satoshi-Italic;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.timeline p {
+  opacity: 65%;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Satoshi-Medium;
+  font-size: 1.56rem;
+}
+
+
+/* Footer */
+footer {
+  /* background-color: white; */
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer p {
+    font-size: .8rem;
+    opacity: 70%;
+    margin-left: 5px
+
+}
+
+
+
+
+
+
+
+

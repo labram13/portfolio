@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 
-const ITEMS = ["Home", "About", "Skills"]
+const ITEMS = ["Home", "About", "Skills", "Projects", "Education"]
 
 export function NavBar()  {
     const [checked, isChecked] = useState(false)
