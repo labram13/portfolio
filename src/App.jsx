@@ -5,6 +5,7 @@ import { AboutMe } from './components/AboutMe'
 import SkillsCarousel from './components/Skills'
 import ProjectSection from './components/Projects'
 import { Education } from './components/Education'
+import DefaultForm from './components/ContactForm'
 import CopyrightSVG from './assets/images/copyright.svg?react'
 
 
@@ -24,6 +25,7 @@ function App() {
         <SkillsCarousel />
         <ProjectSection />
         <Education />
+        <DefaultForm />
       </main>
 
     {/* footer */}
