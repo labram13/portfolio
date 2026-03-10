@@ -7,7 +7,7 @@ export function Education() {
 
     return (
         <section id="education">
-            <h2>Education</h2>
+            <h2>education</h2>
             <div className="timeline">
                 <div className="time">
                     <div className="date"> 
