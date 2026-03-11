@@ -19,14 +19,13 @@ export default function ContactForm() {
   };
 
   return (
-    <section>
+    <section id="contact">
         <h2>contact</h2>
-
         <form onSubmit={onSubmit}>
-        <input type="text" name="name" placeholder='Name' required/>
-        <input type="email" name="email" placeholder='Email' required/>
-        <textarea name="message" placeholder='Message' required></textarea>
-        <button type="submit"><SendSVG /><p>Send</p></button>
+          <input type="text" name="name" placeholder='Name' required/>
+          <input type="email" name="email" placeholder='Email' required/>
+          <textarea name="message" placeholder='Message' required></textarea>
+          <button type="submit"><SendSVG /><p>Send</p></button>
         <p>{result}</p>
         </form>
     </section>

@@ -49,6 +49,12 @@ section {
 
 
 /* nav css */
+
+.desktop-nav-links {
+  display: none;
+}
+
+
 nav {
   display: flex;
   flex-direction: column;
@@ -152,9 +158,9 @@ nav {
   opacity: 1;
 }
 
-.nav-links-container a:focus {
+/* .nav-links-container a:focus-visible {
   text-decoration: underline;
-}
+} */
 
 /* Header Styling */
 
@@ -458,6 +464,72 @@ form button {
 
 
 
+
+@media (min-width: 768px) {
+
+  html {
+    font-size: 18px;
+  }
+
+  .nav-bar-container input, .nav-bar-container label {
+    display: none;
+  }
+
+
+/* 
+tips for hover animation:
+- make element relative
+- create new content with ::after using content: ""
+  - give a background color and width or desired styling
+  - start with a scale of 0. this case x
+  - move it using top bottom left right to 0 to place properly
+  - create transition with property as transform
+- create hover affect only on the ::after pseudo class.
+  - transform scale to 1 depending on choice. 
+
+*/
+  .desktop-nav-links {
+    display: block;
+    text-decoration: none;
+    color: black;
+    position: relative;
+  }
+
+  .desktop-nav-links::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    bottom:0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform .3s ease-out;
+  }
+
+  .desktop-nav-links:hover::after {
+    transform: scaleX(1);
+  }
+
+  .desktop-nav-links:focus {
+    transform: scale(1.25);
+    transition: transform .2s ease-out;
+  }
+
+ 
+
+
+
+  .nav-bar-containter {
+    flex-direction: row;
+  }
+
+  .desktop-nav-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+}
 
 
 

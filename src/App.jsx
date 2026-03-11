@@ -22,9 +22,9 @@ function App() {
     {/* main content */}
       <main>
         <AboutMe />
+        <Education />
         <SkillsCarousel />
         <ProjectSection />
-        <Education />
         <ContactForm />
       </main>
 
