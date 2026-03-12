@@ -26,7 +26,7 @@ export default function ContactForm() {
           <input type="email" name="email" placeholder='Email' required/>
           <textarea name="message" placeholder='Message' required></textarea>
           <button type="submit"><SendSVG /><p>Send</p></button>
-        <p>{result}</p>
+          <p>{result}</p>
         </form>
     </section>
   );

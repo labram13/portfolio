@@ -177,10 +177,9 @@ header {
   margin-top: 8rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
-h1 {
+header h1 {
   font-family: Satoshi-Variable;
   font-size: 2.44rem;
   font-weight: 900;
@@ -189,11 +188,17 @@ h1 {
 
 }
 
+.accent {
+  margin-top: 2.5rem;
+}
+
+
+
+
 .sub-heading {
-  margin-top: 1rem;
+  margin-top: .75rem;
   font-family: Satoshi-regular;
   color: #555555;
-  /* opacity: 67%; */
 }
 
 .accent {
@@ -465,7 +470,7 @@ form button {
 
 
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
   html {
     font-size: 18px;
@@ -493,7 +498,10 @@ tips for hover animation:
     text-decoration: none;
     color: black;
     position: relative;
+    /* animation: red 1s ease-out; */
   }
+
+ 
 
   .desktop-nav-links::after {
     content: '';
@@ -516,10 +524,6 @@ tips for hover animation:
     transition: transform .2s ease-out;
   }
 
- 
-
-
-
   .nav-bar-containter {
     flex-direction: row;
   }
@@ -527,7 +531,70 @@ tips for hover animation:
   .desktop-nav-container {
     display: flex;
     gap: 2rem;
+
+    
   }
+
+  .time::before {
+  left: -24px;  
+}
+
+
+header {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  text-wrap: balance;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#education, #skills, #projects {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+#contact {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+ 
+  
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
