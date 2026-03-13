@@ -40,7 +40,7 @@ export function NavBar()  {
     return (
         <nav>
             <div className="nav-bar-container">
-                <p>/devlabz</p>
+                <p>/mikelabz</p>
                 <input type="checkbox" onChange={handleCheckbox} id="sidebar-active" />
                 <label htmlFor="sidebar-active">
                    
