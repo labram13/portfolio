@@ -467,6 +467,7 @@ form textarea {
   border-radius: .25rem;
   padding: 0.5rem;
   font-family: Satoshi-Regular;
+  resize: none;
 
 }
 

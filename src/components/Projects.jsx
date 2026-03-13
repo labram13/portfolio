@@ -18,7 +18,7 @@ const PROJECTS = [
     {
         title: "Employee Management Tool 2025", 
         techStack: ['Express', 'MongoDB', 'Express', 'nodeJS', 'Azure App Service'],
-        description: "API tool that is designed for business owners who want to keep track of employee information and financial data to calculate accurate salaries. If they input hourly wages, tips, and bonuses, the application will automatically calculate the total based on hours worked. This ensures that all wages are accurate, allowing owners to easily check how many hours employees worked and their hourly wages. It would let owners filter an individual's payroll for that month, or over a certain time period. Allow business owners to input, process and output financial information for employees for bookkeeping.",
+        description: "API tool that is designed for business owners who want to keep track of employee information and financial data to calculate accurate salaries. API follows CRUD operations in order to create, read, update, and delete employee information such as wage data. All of which is calculated server-side in order to gather and collect information based on timeframe user desires.",
         code: "https://github.com/info441-au24/final-project-wena04",
         img: emt
     },
