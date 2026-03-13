@@ -197,7 +197,7 @@ header h1 {
 
 .sub-heading {
   margin-top: .75rem;
-  font-family: Satoshi-regular;
+  font-family: Satoshi-Regular;
   color: #555555;
 }
 
@@ -408,7 +408,8 @@ a {
 }
 
 h4 {
-  font-family: Satoshi-Italic;
+  font-family: "Satoshi-Italic";
+  font-style: italic;
   font-size: 1.25rem;
   margin-top: 1rem;
 }

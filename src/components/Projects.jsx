@@ -6,7 +6,7 @@ import quest from '../assets/images/quest.png'
 const PROJECTS = [
     {
         title: "Quest Diaries", 
-        techStack: ['React', 'MongoDB', 'Express', 'NodeJS', 'IGDB', 'GoogleOAuth'],
+        techStack: ['React', 'MongoDB', 'Express', 'nodeJS', 'IGDB', 'GoogleOAuth', 'Javascript'],
         description: "A web-application for gamers with a focus on organizing their games, logging their experiences, as well as interacting with a community of other like-minded individuals. Community interaction among users that helps recognition of both mainstream and indie games alike. Users can choose to journal individually, create shared journals, and interact with other users in gaming communities.",
         live: "https://quest-diaries.onrender.com",
         code: "https://github.com/labram13/quest-diaries",
