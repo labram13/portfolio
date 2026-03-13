@@ -205,6 +205,12 @@ header h1 {
   color: #FF634A;
 }
 
+span {
+  color: #FF634A;
+  font-family: Satoshi-Medium;
+  background-color: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
