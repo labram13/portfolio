@@ -25,7 +25,7 @@ const PROJECTS = [
     {
         title: "Dose 2023",
         techStack: ['React', 'Javascript', 'Firebase'],
-        description: "Client-side focused application with a focus in medication. App is designed to help users organize their medication by days of the week with required doses. Separate API is used to fetch medication information based on user query. Side-effects are included with each medication added to users pill box within the app in order to be aware proper medication intake.",
+        description: "Client-side application with a focus in medication. App is designed to help users organize their medication by days of the week with required doses. Separate API is used to fetch medication information based on user query. Side-effects are included with each medication added to users pill box within the app in order to be aware proper medication intake.",
         img: dose,
         live: "https://project-a5-f5b82.web.app/",
         code: "https://github.com/info340-su23/project-GConscious"
