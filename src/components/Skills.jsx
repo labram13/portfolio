@@ -78,7 +78,7 @@ function SkillsCarousel() {
 
     return (
         <section id="skills">
-            <h2>skills</h2>
+            <h2>Skills</h2>
             <div className="carousel-container">
                 <ul className="carousel-track">
                         {cards}

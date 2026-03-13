@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   return (
     <section id="contact">
-        <h2>contact</h2>
+        <h2>Contact</h2>
         <form onSubmit={onSubmit}>
           <input type="text" name="name" placeholder='Name' required/>
           <input type="email" name="email" placeholder='Email' required/>

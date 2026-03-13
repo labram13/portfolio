@@ -7,7 +7,7 @@ function ProjectSection() {
 
     return (
         <section id="projects">
-            <h2>projects</h2>
+            <h2>Projects</h2>
             <ProjectCard />
         </section>
     )
@@ -31,7 +31,6 @@ function ProjectCard() {
          
             <div className="project-links">
                 <button>
-                   
                     <LiveSVG />
                     <p>Live</p></button>
                 <button>

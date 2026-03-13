@@ -287,7 +287,10 @@ h2 {
   gap: 2rem;
   /* border: 1px solid black; */
   border-radius: 20px;
+
+ 
 }
+
 
 .project-links {
   display: flex;
@@ -470,6 +473,9 @@ form button {
 
 
 
+
+
+
 @media (min-width: 992px) {
 
   html {
@@ -544,22 +550,21 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 60%;
-  margin: auto;
+  /* margin: auto; */
   text-wrap: balance;
+  margin-top: 8rem;
 }
 
 #about {
   display: flex;
   flex-direction: column;
-  width: 60%;
   text-align: center;
   justify-content: center;
   margin: auto;
 }
 
-#education, #skills, #projects {
-  width: 60%;
+#about, #education, #skills, #projects {
+  width: 700px;
   text-align: center;
   margin: auto;
 }
@@ -581,19 +586,32 @@ textarea {
   width: 100%;
 }
 
+.date{
+  justify-content: center;
+  
+}
 
+.time {
+  width: 610px;
+}
 
+.project-tech-stack {
+  justify-content: center;
 
+}
 
+.project-links {
+  justify-content: center;
+}
 
+.project-description {
+  text-wrap: balance;
+}
 
+button:active {
+  transform: scale(.95);
 
-
-
-
-
-
-
+}
 
 
 }
