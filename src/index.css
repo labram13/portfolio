@@ -332,12 +332,9 @@ h3 {
 .project-links button {
   display: flex;
   flex-direction: row;
-  color: white;
-  background-color: #FF634A;
   /* height: 2rem; */
   width: 6rem;
-  border: none;
-  border-radius: 5px;
+  
   font-family: Satoshi-Regular;
   justify-content: center;
   align-items: center;
@@ -345,11 +342,19 @@ h3 {
   padding: .1rem .5rem;
 }
 
+.live-button {
+  color: white;
+  background-color: #FF634A;
+  border: none;
+  border-radius: 5px;
+}
 
-.project-links button:last-child {
+.code-button{
   background-color: #FFFCF8;
   border: solid 1px #FF634A;
   color: #FF634A;
+  border-radius: 5px;
+
 }
 
 /* education css */
@@ -608,11 +613,25 @@ textarea {
   text-wrap: balance;
 }
 
-button:active {
-  transform: scale(.95);
-
+.live-button:hover {
+  background-color: #F77F6C;
 }
 
+.live-button:active {
+  background-color: #EA533A;
+}
+
+.code-button:hover {
+  background-color: #FCF7F7;
+}
+
+.code-button:active {
+  background-color: #F0F0F0;
+}
+
+/* .code-button {
+  background-color: black;
+} */
 
 }
 
