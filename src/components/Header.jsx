@@ -10,7 +10,7 @@ export function Header() {
             <img className="profile-img" src={profilePic} alt="Michaelangelo's profile picture"/>
             <h1 className="accent">Full-Stack Developer</h1>
             <h1 className="name">Michaelangelo Labrador</h1>
-            <p className="sub-heading">Experienced with Node.js, React, Express and MongoDB to build fully operating web apps</p>
+            <p className="sub-heading">Building solutions since 2023 that transform information into human-centered experiences</p>
             
             
         </header>

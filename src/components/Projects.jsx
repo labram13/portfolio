@@ -9,7 +9,7 @@ import petShelter from '../assets/images/petshelter.png'
 const PROJECTS = [
     {
         title: "Quest Diaries 2025", 
-        techStack: ['React', 'MongoDB', 'Express', 'nodeJS', 'IGDB', 'GoogleOAuth', 'Javascript'],
+        techStack: ['React', 'mongoDB', 'Express', 'Node.js', 'IGDB', 'GoogleOAuth', 'Javascript'],
         description: "A web-application for gamers with a focus on organizing their games, logging their experiences, as well as interacting with a community of other like-minded individuals. Community interaction among users that helps recognition of both mainstream and indie games alike. Users can choose to journal individually, create shared journals, and interact with other users in gaming communities.",
         live: "https://quest-diaries.onrender.com",
         code: "https://github.com/labram13/quest-diaries",
@@ -18,7 +18,7 @@ const PROJECTS = [
     },
     {
         title: "Employee Management Tool 2024", 
-        techStack: ['Express', 'MongoDB', 'Express', 'nodeJS', 'Azure App Service'],
+        techStack: ['Express', 'mongoDB', 'Express', 'Node.js', 'Azure App Service'],
         description: "API tool that is designed for business owners who want to keep track of employee information and financial data to calculate accurate salaries. API follows CRUD operations in order to create, read, update, and delete employee information such as wage data. All of which is calculated server-side in order to gather and collect information based on timeframe user desires.",
         code: "https://github.com/info441-au24/final-project-wena04",
         img: emt
