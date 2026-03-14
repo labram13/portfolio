@@ -4,6 +4,7 @@ import CodeSVG from '../assets/images/code.svg?react'
 import quest from '../assets/images/quest.png'
 import emt from '../assets/images/emt.png'
 import dose from '../assets/images/dose.png'
+import petShelter from '../assets/images/petshelter.png'
 
 const PROJECTS = [
     {
@@ -22,6 +23,16 @@ const PROJECTS = [
         code: "https://github.com/info441-au24/final-project-wena04",
         img: emt
     },
+
+    {
+        title: "Pet Shelter Database 2024",
+        techStack: ['SQL', 'MSSQL'],
+        description: "A database project that represents numerous pet shelters that house as temoporary homes for various animals. A relation schema is provided to show relationships between entities such as pets and volunteers that belong to many of the designated shelters within the database. We've created various SQL queries in order to analyze data based on questions. One example is to see if there is a correlation between individuals who are single or have a family that are more likely to adopt a pet.",
+        code: "https://github.com/labram13/Database-Project-Pet-Shelter-INFO-330",
+        img: petShelter
+
+    },
+
     {
         title: "Dose 2023",
         techStack: ['React', 'Javascript', 'Firebase'],
