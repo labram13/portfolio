@@ -25,7 +25,7 @@ const PROJECTS = [
     },
 
     {
-        title: "Pet Shelter Database 2024",
+        title: "Pet Shelter Database 2023",
         techStack: ['SQL', 'MSSQL'],
         description: "A database project modeling multiple pet shelters that serve as temporary homes for animals. The relational schema illustrates relationships between entities such as pets, volunteers, and shelters. Various SQL queries were developed to analyze the data, including exploring whether single individuals or families are more likely to adopt a pet.",
         code: "https://github.com/labram13/Database-Project-Pet-Shelter-INFO-330",
