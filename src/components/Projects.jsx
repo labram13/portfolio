@@ -10,7 +10,7 @@ const PROJECTS = [
     {
         title: "Quest Diaries 2025", 
         techStack: ['React', 'mongoDB', 'Express', 'Node.js', 'IGDB', 'GoogleOAuth', 'Javascript'],
-        description: "A web-application for gamers with a focus on organizing their games, logging their experiences, as well as interacting with a community of other like-minded individuals. Community interaction among users that helps recognition of both mainstream and indie games alike. Users can choose to journal individually, create shared journals, and interact with other users in gaming communities.",
+        description: "A web application for gamers to organize their games, log their experiences, and connect with a community of like-minded players. The platform highlights both mainstream and indie titles while allowing users to keep personal journals, create shared journals, and interact within gaming communities.",
         live: "https://quest-diaries.onrender.com",
         code: "https://github.com/labram13/quest-diaries",
         img: quest
@@ -19,7 +19,7 @@ const PROJECTS = [
     {
         title: "Employee Management Tool 2024", 
         techStack: ['Express', 'mongoDB', 'Express', 'Node.js', 'Azure App Service'],
-        description: "API tool that is designed for business owners who want to keep track of employee information and financial data to calculate accurate salaries. API follows CRUD operations in order to create, read, update, and delete employee information such as wage data. All of which is calculated server-side in order to gather and collect information based on timeframe user desires.",
+        description: "An API tool designed for business owners to manage employee information and financial data for accurate salary calculations. It follows CRUD operations to create, read, update, and delete employee records such as wage data. All calculations are performed server-side, allowing users to generate payroll information based on a selected timeframe",
         code: "https://github.com/info441-au24/final-project-wena04",
         img: emt
     },
@@ -27,7 +27,7 @@ const PROJECTS = [
     {
         title: "Pet Shelter Database 2024",
         techStack: ['SQL', 'MSSQL'],
-        description: "A database project that represents numerous pet shelters that house as temoporary homes for various animals. A relation schema is provided to show relationships between entities such as pets and volunteers that belong to many of the designated shelters within the database. We've created various SQL queries in order to analyze data based on questions. One example is to see if there is a correlation between individuals who are single or have a family that are more likely to adopt a pet.",
+        description: "A database project modeling multiple pet shelters that serve as temporary homes for animals. The relational schema illustrates relationships between entities such as pets, volunteers, and shelters. Various SQL queries were developed to analyze the data, including exploring whether single individuals or families are more likely to adopt a pet.",
         code: "https://github.com/labram13/Database-Project-Pet-Shelter-INFO-330",
         img: petShelter
 
@@ -36,7 +36,7 @@ const PROJECTS = [
     {
         title: "Dose 2023",
         techStack: ['React', 'Javascript', 'Firebase'],
-        description: "Client-side application with a focus in medication. App is designed to help users organize their medication by days of the week with required doses. Separate API is used to fetch medication information based on user query. Side-effects are included with each medication added to users pill box within the app in order to be aware of proper medication intake.",
+        description: "A client-side medication management app that helps users organize doses by day of the week. It integrates with an external API to fetch medication details based on user queries. Each added medication includes side-effect information to help users stay informed and take their medications safely.",
         img: dose,
         live: "https://project-a5-f5b82.web.app/",
         code: "https://github.com/info340-su23/project-GConscious"
