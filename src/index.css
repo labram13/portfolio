@@ -587,6 +587,11 @@ tips for hover animation:
   left: -24px;  
 }
 
+.profile-img {
+  height: 300px;
+  width: 300px;
+}
+
 
 header {
   justify-content: center;
