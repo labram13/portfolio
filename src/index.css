@@ -179,6 +179,25 @@ header {
   flex-direction: column;
 }
 
+.personal-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.personal-links svg {
+  height: 30px;
+  width: 30px;
+}
+
+.personal-links button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+}
+
+
 header h1 {
   font-family: Satoshi-Variable;
   font-size: 2.44rem;
@@ -335,7 +354,7 @@ h3 {
   color: #FF634A;
 }
 
-.project-links button {
+.project-links button, header button {
   display: flex;
   flex-direction: row;
   /* height: 2rem; */
@@ -346,16 +365,17 @@ h3 {
   align-items: center;
   gap: .5rem;
   padding: .1rem .5rem;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.15s ease;
 }
 
-.live-button {
+.live-button, .github {
   color: white;
   background-color: #FF634A;
   border: none;
   border-radius: 5px;
 }
 
-.code-button{
+.code-button, .linkedin{
   background-color: #FFFCF8;
   border: solid 1px #FF634A;
   color: #FF634A;
@@ -630,19 +650,19 @@ textarea {
   text-wrap: balance;
 }
 
-.live-button:hover {
+.live-button:hover, .github:hover {
   background-color: #F77F6C;
 }
 
-.live-button:active {
+.live-button:active, .github:active {
   background-color: #EA533A;
 }
 
-.code-button:hover {
+.code-button:hover, .linkedin:hover {
   background-color: #FCF7F7;
 }
 
-.code-button:active {
+.code-button:active, .linkedin:active {
   background-color: #F0F0F0;
 }
 
