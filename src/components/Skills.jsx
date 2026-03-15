@@ -12,7 +12,7 @@ const SKILLS =
     [
         {
             imgUrl: js,
-            skill: "Javascript"
+            skill: "JavaScript"
         
         },
         {

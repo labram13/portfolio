@@ -9,7 +9,7 @@ import petShelter from '../assets/images/petshelter.png'
 const PROJECTS = [
     {
         title: "Quest Diaries 2025", 
-        techStack: ['React', 'mongoDB', 'Express', 'Node.js', 'IGDB', 'GoogleOAuth', 'Javascript'],
+        techStack: ['React', 'mongoDB', 'Express', 'Node.js', 'IGDB', 'GoogleOAuth', 'JavaScript'],
         description: "A web application for gamers to organize their games, log their experiences, and connect with a community of like-minded players. The platform highlights both mainstream and indie titles while allowing users to keep personal journals, create shared journals, and interact within gaming communities.",
         live: "https://quest-diaries.onrender.com",
         code: "https://github.com/labram13/quest-diaries",
@@ -35,7 +35,7 @@ const PROJECTS = [
 
     {
         title: "Dose 2023",
-        techStack: ['React', 'Javascript', 'Firebase'],
+        techStack: ['React', 'JavaScript'],
         description: "A client-side medication management app that helps users organize doses by day of the week. It integrates with an external API to fetch medication details based on user queries. Each added medication includes side-effect information to help users stay informed and take their medications safely.",
         img: dose,
         live: "https://project-a5-f5b82.web.app/",
