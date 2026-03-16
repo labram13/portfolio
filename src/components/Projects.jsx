@@ -9,7 +9,7 @@ import chatterbox from '../assets/images/chatterbox.png'
 
 const PROJECTS = [
     {
-        title: "ChatterBox (In Progress)", 
+        title: "chatterbox (In Progress)", 
         techStack: ['React', 'PostgreSQL', 'Express', 'Node.js', 'AWS Storage', 'JWT', 'JavaScript', 'Redis', 'Socket.io'],
         description: "A full-stack chat chat application with a goal of sending messages to individuals or a group of people within a created chatroom. The goal of this project is to apply knowledge of websockets for instant communication and notifications. Caching will also be implemented for faster message load times. Cloud file storage will be included so users will be able to send different types of media mostly aimed at images. ",
         code: "https://github.com/labram13/ChatterBox",
