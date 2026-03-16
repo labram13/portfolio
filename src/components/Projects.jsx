@@ -31,15 +31,6 @@ const PROJECTS = [
         code: "https://github.com/labram13/Database-Project-Pet-Shelter-INFO-330",
         img: petShelter
 
-    },
-
-    {
-        title: "Dose 2023",
-        techStack: ['React', 'JavaScript'],
-        description: "A client-side medication management app that helps users organize a user's prescription doses by day of the week. It integrates with an external API to fetch medication details based on user queries. Each added medication includes side-effect information to help users stay informed and take their medications safely.",
-        img: dose,
-        live: "https://project-a5-f5b82.web.app/",
-        code: "https://github.com/info340-su23/project-GConscious"
     }
 ]
 
