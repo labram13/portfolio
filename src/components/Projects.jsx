@@ -74,13 +74,13 @@ function ProjectCard(props) {
             <p className="project-description">{project.description}</p>
          
             <div className="project-links">
-                <a href="https://quest-diaries.onrender.com/">
+                <a href={project.live}>
                     {project.live && (<button className="live-button">
                         <LiveSVG />
                         <p>Live</p>
                     </button>)}
                 </a>
-                <a href="https://github.com/labram13/quest-diaries">
+                <a href={project.code}>
                     <button className="code-button">
                         <CodeSVG />
                         <p>Code</p>
