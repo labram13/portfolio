@@ -3,7 +3,6 @@ import LiveSVG from '../assets/images/live.svg?react'
 import CodeSVG from '../assets/images/code.svg?react'
 import quest from '../assets/images/quest.png'
 import emt from '../assets/images/emt.png'
-import dose from '../assets/images/dose.png'
 import petShelter from '../assets/images/petshelter.png'
 import chatterbox from '../assets/images/chatterbox.png'
 
