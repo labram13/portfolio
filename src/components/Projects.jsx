@@ -27,7 +27,7 @@ const PROJECTS = [
     {
         title: "Employee Management Tool 2024", 
         techStack: ['Express', 'mongoDB', 'Express', 'JavaScript', 'Node.js', 'Azure App Service'],
-        description: "An API tool designed for business owners to manage employee information and financial data for accurate salary calculations. It follows CRUD operations to create, read, update, and delete employee records such as wage data. All calculations are performed server-side, allowing users to generate payroll information based on a selected timeframe",
+        description: "An API tool designed for business owners to manage employee information and financial data for accurate salary calculations. It follows CRUD operations to create, read, update, and delete employee records such as wage data. All calculations are performed server-side, allowing users to generate payroll information based on a selected timeframe.",
         code: "https://github.com/info441-au24/final-project-wena04",
         img: emt
     },
